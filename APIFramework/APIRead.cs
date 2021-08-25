@@ -56,6 +56,15 @@ namespace APIFramework
             return content!=null ? (Int32)content.Bookingid : 0;
         }
 
+        public IRestResponse GetHealthCheck(string endpoint)
+        {
+            var apiDetails = new APITestHelper<IRestResponse>();
+            var url = apiDetails.SetUrl(endpoint);
+            var request = apiDetails.CreateGetRequest();
+            var response = apiDetails.GetResponse(url, request);
+            return response;
+        }
+
 
 
     }

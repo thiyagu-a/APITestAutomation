@@ -10,8 +10,7 @@ namespace APIFramework
         public RestClient restClient;
         public RestRequest restRequest;
         public string baseUrl = "https://restful-booker.herokuapp.com/";
-        public string authUrl = "https://restful-booker.herokuapp.com/";
-
+        
         public RestClient SetUrl(string endpoint)
         {
             var url = Path.Combine(baseUrl, endpoint);
@@ -58,7 +57,7 @@ namespace APIFramework
             restRequest.AddHeader("Accept", "application/json");
             return restRequest;
         }
-
+                
         public IRestResponse GetResponse(RestClient client, RestRequest request)
         {
             return client.Execute(request);

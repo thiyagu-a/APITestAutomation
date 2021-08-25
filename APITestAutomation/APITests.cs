@@ -1,12 +1,21 @@
 using APIFramework;
 using APIFramework.DTO;
 using NUnit.Framework;
+using RestSharp;
 using System.Net;
 
 namespace APITestAutomation
 {
     public class Tests
     {
+
+        [SetUp]
+        public void HealthCheck()
+        {
+            var apiRead = new APIRead<IRestResponse>();
+            var response = apiRead.GetHealthCheck("ping");
+            Assert.That(response.StatusCode == HttpStatusCode.Created, "Health Check Failed");
+        }
 
         [Test]
         public void CreateBooking()
