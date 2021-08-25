@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITestAutomation", "APITestAutomation\APITestAutomation.csproj", "{9FE94D24-B1B0-46AE-A287-6477CF112445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFramework", "APIFramework\APIFramework.csproj", "{EA781710-B1CF-42DC-9E89-03D66BD31CC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FE94D24-B1B0-46AE-A287-6477CF112445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE94D24-B1B0-46AE-A287-6477CF112445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE94D24-B1B0-46AE-A287-6477CF112445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE94D24-B1B0-46AE-A287-6477CF112445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA781710-B1CF-42DC-9E89-03D66BD31CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA781710-B1CF-42DC-9E89-03D66BD31CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA781710-B1CF-42DC-9E89-03D66BD31CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA781710-B1CF-42DC-9E89-03D66BD31CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E35EC848-106F-4634-8883-DE4DE7786AC1}
+	EndGlobalSection
+EndGlobal
