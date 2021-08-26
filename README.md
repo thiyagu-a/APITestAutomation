@@ -1,6 +1,6 @@
 # API Test Automation
 
-Create a test solution to test the following public API : https://restful-booker.herokuapp.com/apidoc/index.html
+A Test solution to test the provided public API
 
 Automates below simple tests.
 
